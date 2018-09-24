@@ -1,5 +1,5 @@
 {
-  "name": "zipcelx-es5",
+  "name": "zipcelx-es5-cjs",
   "version": "1.6.0",
   "description": "JSON Transformer to create .xlsx files. Forked to be ES5 tranpiled and CJS shippable.",
   "main": "lib/module.js",
@@ -20,7 +20,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/doliG/zipcelx-es5"
+    "url": "https://github.com/doliG/zipcelx-es5-cjs"
   },
   "keywords": [
     "JSON",
@@ -30,9 +30,9 @@
   "author": "Lars Krieger / Guillaume LODI",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/doliG/zipcelx-es5/issues"
+    "url": "https://github.com/doliG/zipcelx-es5-cjs/issues"
   },
-  "homepage": "https://github.com/doliG/zipcelx-es5#readme",
+  "homepage": "https://github.com/doliG/zipcelx-es5-cjs#readme",
   "devDependencies": {
     "@babel/core": "^7.1.0",
     "@babel/preset-env": "^7.1.0",
