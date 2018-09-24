@@ -3,6 +3,7 @@ import builtins from 'rollup-plugin-node-builtins';
 import globals from 'rollup-plugin-node-globals';
 import resolve from 'rollup-plugin-node-resolve';
 import uglify from 'rollup-plugin-uglify';
+import babel from 'rollup-plugin-babel';
 import pkg from './package.json';
 
 export default [
@@ -41,7 +42,10 @@ export default [
     input: 'src/zipcelx.js',
     external: Object.keys(pkg.dependencies),
     output: [
-      { file: pkg.browser, format: 'es' }
+      { file: pkg.browser, format: 'cjs' }
+    ],
+    plugins: [
+      babel()
     ]
   }
 ];
